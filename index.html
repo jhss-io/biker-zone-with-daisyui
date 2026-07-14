@@ -32,9 +32,18 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <style>
       .font-poppins {
         font-family: "Poppins", sans-serif;
+      }
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
       }
     </style>
   </head>
@@ -598,7 +607,7 @@
         </div>
       </section>
       <!-- Frequently Asked Questions section-->
-      <section class="mb-16 md:mb-40">
+      <section class="mb-16 md:mb-32">
         <div>
           <h2
             class="text-4xl md:text-5xl font-semibold text-center pb-12 md:pb-28"
@@ -668,6 +677,35 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <!-- footer section -->
+    <footer
+      class="footer p-14 bg-neutral text-neutral-content font-manrope justify-around"
+    >
+      <aside>
+        <div class="flex gap-5">
+          <p>Download Now</p>
+          <p>License</p>
+        </div>
+        <div class="flex gap-2 md:gap-6">
+          <p>About</p>
+          <p>Features</p>
+          <p>Pricing</p>
+          <p>Careers</p>
+          <p>Help</p>
+          <p>Privacy Policy</p>
+        </div>
+
+        <div class="pt-5">
+          <p>© 2020 bike. All rights reserved</p>
+        </div>
+      </aside>
+      <nav>
+        <header class="footer-title font-medium">Get the App</header>
+        <div class="grid grid-cols-1 gap-4">
+          <img class="w-36" src="images/others/ios.png" alt="" />
+          <img class="w-36" src="images/others/android.png" alt="" />
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>
